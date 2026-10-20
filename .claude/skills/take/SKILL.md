@@ -14,3 +14,5 @@ HACKWIN_CALLER=claude-code hackwin take $ARGUMENTS
 ```
 
 Then give the user the output of the command unchanged, and its exit code when it is not 0. Do nothing else: run no other command, change no file, do not change the directory and do not run the command again. `hackwin take` does all the work, and its output names the next step and the directory to run it in.
+
+Ask before you take a task.
